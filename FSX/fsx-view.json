@@ -1,0 +1,17 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "fsx:Describe*",
+                "fsx:List*",
+                "fsx:DescribeFileSystems",
+                "fsx:DescribeBackups",
+                "fsx:DescribeDataRepositoryTasks",
+                "fsx:ListTagsForResource"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
