@@ -1,0 +1,18 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "application-autoscaling:Describe*",
+                "application-autoscaling:List*",
+                "application-autoscaling:DescribeScalingPolicies",
+                "application-autoscaling:DescribeScalingActivities",
+                "application-autoscaling:DescribeScalingPlans",
+                "application-autoscaling:DescribeScheduledActions",
+                "application-autoscaling:ListTagsForResource"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
