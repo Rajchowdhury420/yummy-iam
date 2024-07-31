@@ -1,0 +1,28 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "fsx:CreateFileSystem",
+                "fsx:CreateBackup",
+                "fsx:DeleteFileSystem",
+                "fsx:DeleteBackup",
+                "fsx:UpdateFileSystem",
+                "fsx:RestoreVolumeFromSnapshot",
+                "fsx:TagResource",
+                "fsx:UntagResource",
+                "fsx:ListTagsForResource",
+                "fsx:DescribeFileSystems",
+                "fsx:DescribeBackups",
+                "fsx:DescribeDataRepositoryTasks",
+                "fsx:ListTagsForResource",
+                "fsx:AssociateFileGateway",
+                "fsx:DisassociateFileGateway",
+                "fsx:CreateDataRepositoryTask",
+                "fsx:CancelDataRepositoryTask"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
