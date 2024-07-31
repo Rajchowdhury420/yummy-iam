@@ -1,0 +1,25 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "firehose:CreateDeliveryStream",
+                "firehose:DeleteDeliveryStream",
+                "firehose:PutRecord",
+                "firehose:PutRecordBatch",
+                "firehose:UpdateDestination",
+                "firehose:StartDeliveryStreamEncryption",
+                "firehose:StopDeliveryStreamEncryption",
+                "firehose:TagDeliveryStream",
+                "firehose:UntagDeliveryStream",
+                "firehose:ListTagsForDeliveryStream",
+                "firehose:DescribeDeliveryStream",
+                "firehose:ListDeliveryStreams",
+                "firehose:DescribeDeliveryStreamSource",
+                "firehose:DescribeDeliveryStreamDestination"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
