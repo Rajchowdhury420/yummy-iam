@@ -1,0 +1,31 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "kinesisanalytics:CreateApplication",
+                "kinesisanalytics:DeleteApplication",
+                "kinesisanalytics:UpdateApplication",
+                "kinesisanalytics:StartApplication",
+                "kinesisanalytics:StopApplication",
+                "kinesisanalytics:AddApplicationInput",
+                "kinesisanalytics:AddApplicationOutput",
+                "kinesisanalytics:AddApplicationReferenceDataSource",
+                "kinesisanalytics:DeleteApplicationInputProcessingConfiguration",
+                "kinesisanalytics:DeleteApplicationOutput",
+                "kinesisanalytics:DeleteApplicationReferenceDataSource",
+                "kinesisanalytics:DescribeApplication",
+                "kinesisanalytics:ListApplications",
+                "kinesisanalytics:TagResource",
+                "kinesisanalytics:UntagResource",
+                "kinesisanalytics:ListTagsForResource",
+                "kinesisanalytics:CreateApplicationSnapshot",
+                "kinesisanalytics:DeleteApplicationSnapshot",
+                "kinesisanalytics:DescribeApplicationSnapshot",
+                "kinesisanalytics:ListApplicationSnapshots"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
